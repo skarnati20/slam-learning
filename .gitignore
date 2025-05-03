@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ROS 2 specific
+install/
+log/
+.rosinstall
+.catkin_workspace
+
+# Build artifacts
+**/cmake-build-debug/
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+**/*.a
+**/*.o
+**/*.so
+**/*.dylib
+compile_commands.json
+
+# Colcon build artifacts
+.colcon_cd_root
+**/colcon_build/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+.ipynb_checkpoints
+*.sublime-project
+*.sublime-workspace
+
+# ROS Bags
+*.bag
+*.db3
+rosbag2*/
+
+# Log files
+*.log
+*.out
+
+# Runtime files
+*.pid
+*.lock
+
+# Images, videos, and large datasets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.bag
+*.mat
+*.npy
+*.npz
+
+# Except for config directory images
+!config/**/*.png
+!config/**/*.jpg
+
+# Documentation
